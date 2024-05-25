@@ -1,11 +1,21 @@
-import React from 'react'
-
-function landing() {
+import { Button } from "@/components/ui/button"
+import Link from "next/link";
+let HomePage = ()=> {
   return (
+    <div>Landing Page 
+      
     <div>
-      landing page (unprotected)
+      <Link href="sign-in">
+        <Button>Login</Button>
+      </Link>
+
+      <Link href="sign-up">
+        <Button>Register</Button>
+      </Link>
+     
     </div>
-  )
+    </div>
+  );
 }
 
-export default landing
+export default HomePage;

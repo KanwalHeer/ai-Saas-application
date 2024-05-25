@@ -1,11 +1,9 @@
-
-
-function dashboard() {
+const Dashboard = () => {
   return (
     <div>
-      dash page (Protected)
+      <p>Dashboard Page</p>
     </div>
-  )
-}
+  );
+};
 
-export default dashboard
+export default Dashboard;
